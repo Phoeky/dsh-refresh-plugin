@@ -2,5 +2,5 @@
 # scan picks up `dsh.client` and serves lib/client.js into __DSH_BOOT__.
 # Install with: dsh plugin --profile desktop add dsh-refresh-plugin
 - insert:
-    - id: dsh-refresh
+    - id: dsh-refresh-plugin
       name: 'dsh-refresh-plugin'
