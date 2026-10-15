@@ -1,0 +1,35 @@
+{
+  "name": "dsh-refresh",
+  "version": "0.1.0",
+  "description": "DSH desktop refresh plugin: binds F5 / Ctrl+R to reload the app page (F5 does not work by default in production builds).",
+  "private": true,
+  "license": "MIT",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "refresh",
+    "reload"
+  ]
+}
