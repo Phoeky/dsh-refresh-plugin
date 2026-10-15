@@ -28,7 +28,7 @@ This plugin registers a capture-phase key listener on the client side to restore
 
 ## 安装 / Install
 
-npm 包名：**`dsh-refresh-plugin`**（GitHub 仓库名 `dsh-refresh`；npm 上的 `dsh-refresh` 已被其他用户占用）。
+npm 包名：**`dsh-refresh-plugin`**（GitHub 仓库同名；npm 上的 `dsh-refresh` 已被其他用户占用）。
 
 **方式一：从 npm registry 安装（推荐）**
 
