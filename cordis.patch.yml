@@ -1,6 +1,6 @@
-# dsh-refresh bundle patch: mounts one loader entry so the client-modules
+# dsh-refresh-plugin bundle patch: mounts one loader entry so the client-modules
 # scan picks up `dsh.client` and serves lib/client.js into __DSH_BOOT__.
-# Install with: dsh plugin --profile desktop add <this directory>
+# Install with: dsh plugin --profile desktop add dsh-refresh-plugin
 - insert:
     - id: dsh-refresh
-      name: 'dsh-refresh'
+      name: 'dsh-refresh-plugin'

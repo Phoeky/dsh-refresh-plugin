@@ -1,8 +1,7 @@
 {
-  "name": "dsh-refresh",
-  "version": "0.1.0",
+  "name": "dsh-refresh-plugin",
+  "version": "1.0.0",
   "description": "DSH desktop refresh plugin: binds F5 / Ctrl+R to reload the app page (F5 does not work by default in production builds).",
-  "private": true,
   "license": "MIT",
   "main": "lib/index.js",
   "exports": {
@@ -16,6 +15,14 @@
     "locale",
     "icon.svg"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phoeky/dsh-refresh.git"
+  },
+  "homepage": "https://github.com/Phoeky/dsh-refresh",
+  "bugs": {
+    "url": "https://github.com/Phoeky/dsh-refresh/issues"
+  },
   "dsh": {
     "manifestVersion": 1,
     "bundle": {

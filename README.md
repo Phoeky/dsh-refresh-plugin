@@ -1,5 +1,8 @@
 # dsh-refresh
 
+[![npm version](https://img.shields.io/npm/v/dsh-refresh-plugin)](https://www.npmjs.com/package/dsh-refresh-plugin)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 DSH desktop 刷新插件 —— 为 DeepSeek Harness Desktop 增加页面刷新功能。
 
 DSH desktop refresh plugin — adds a page-refresh (reload) feature to the DeepSeek Harness Desktop web UI.
@@ -25,11 +28,17 @@ This plugin registers a capture-phase key listener on the client side to restore
 
 ## 安装 / Install
 
-在 DSH Desktop 完全退出后，于命令行执行：
+npm 包名：**`dsh-refresh-plugin`**（GitHub 仓库名 `dsh-refresh`；npm 上的 `dsh-refresh` 已被其他用户占用）。
+
+**方式一：从 npm registry 安装（推荐）**
 
 ```powershell
-dsh plugin --profile desktop add <本插件目录或发布包>
-# 例如
+dsh plugin --profile desktop add dsh-refresh-plugin
+```
+
+**方式二：本地路径安装（开发调试时）**
+
+```powershell
 dsh plugin --profile desktop add F:\code\dsh-desktop-refresh\dsh-refresh
 ```
 
